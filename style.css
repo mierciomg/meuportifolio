@@ -1,0 +1,22 @@
+#redondo{
+    border-radius: 50%;
+}
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#posicao{
+    text-align: end;
+    margin: 0;
+}
+
+.nav{
+    text-align: end;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
