@@ -5,16 +5,17 @@
 .cabecalho{
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 #posicao{
     text-align: end;
     margin: 0;
+    padding-bottom: 40px;
 }
 
 .nav{
-    text-align: end;
+    text-align: center;
 }
 .nav a{
     color: white;
