@@ -1,23 +1,88 @@
-#redondo{
-    border-radius: 50%;
-}
-
-.cabecalho{
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-
-#posicao{
-    text-align: end;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding-bottom: 40px;
+    padding: 0;
+    background-color: #a6c8e4;
+    color: #333;
 }
 
-.nav{
+.header {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav {
+    background-color: #3c3c3c;
+    padding: 10px;
     text-align: center;
 }
-.nav a{
+
+.nav a {
     color: white;
     text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.profile {
+    background-color: #a6c8e4;
+    padding: 30px;
+    display: flex;
+    align-items: self-end;    ;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 5px solid #2d8ae5;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.profile h2 {
+    margin: 0cap;
+    font-size: 32px;
+}
+
+.profile h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.content {
+    padding: 20px;
+    background-color: #a6c8e4;
+}
+
+.content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
 }
