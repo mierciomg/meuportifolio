@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: baseline;
-    height: 130vh;
+    height: 110vh;
     margin: 0;
 }
 
@@ -44,16 +44,24 @@
     background-color: #3c3c3c;
     padding: 10px;
     text-align: center;
-    
 }
 
 .nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 14px;
-    text-transform: uppercase;
-    
+    font-size: 20px;
+    text-transform: uppercase;  
+}
+
+.nav a:hover {  
+    color: rgb(0, 255, 38); /* Cor dos links quando o mouse passar sobre eles */
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+    }
+
+.nav a.active {
+    color: rgb(0, 255, 89); /* Cor do link ativo (página atual) */
+    font-weight: bold; /* Torna o link ativo em negrito (opcional) */
 }
 
 .profile {
